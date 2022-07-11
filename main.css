@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    background-size: cover;
+}
+h1,h2,h3 {
+    text-align: center;
+    color: yellow;
+}
+
+.card__contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 15px 0% 15px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.158);
+    border: 2px solid yellow;
+
+}
+
+.card__img__uno {
+    min-width: 320px;
+    max-width: 640px;
+    min-height: 180px;
+    max-height: 360px;
+    background-image: url("./imagenes/auto__uno.jpg");
+    background-size: cover;
+}
+
+.card__img__dos {
+    min-width: 320px;
+    max-width: 640px;
+    min-height: 180px;
+    max-height: 360px;
+    background-image: url("./imagenes/auto__dos.jpg");
+    background-size: cover;
+}
+
+.card__img__tres {
+    min-width: 320px;
+    max-width: 640px;
+    min-height: 180px;
+    max-height: 360px;
+    background-image: url("./imagenes/auto__tres.jpg");
+    background-size: cover;
+}
